@@ -19,7 +19,7 @@
     </div>
     <div class="list list-inset">
       <div class="item item-avatar-left item-text-wrap" ng-repeat="leader in leaders">
-        <img src="{{baseURL+leader.image}}">
+        <img ng-src="{{baseURL+leader.image}}">
         <h2>{{leader.name}}</h2>
         <small>{{leader.designation}}</small>
         <p>{{leader.description}}</p>
